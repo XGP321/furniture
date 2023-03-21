@@ -1,0 +1,237 @@
+/* 登录意见 */
+
+html{
+	height: 100%;	
+}
+body{
+	min-height: 100%;
+	display:flex;
+	flex-direction: column;
+}
+.cotent{
+	flex: 1;
+}
+.login-suggestion{
+	float: right;
+	margin-top: 10px;
+	color: #999;
+}
+.xtx-nav .login-suggestion:hover{
+	color: #e68940;
+}
+
+/* <!-- 登录主体 --> */
+
+input[type="submit"],
+input[type="button"] {
+  cursor: pointer;
+}
+input:focus::placeholder{
+	opacity: 0;
+}
+.l {
+  float: left;
+}
+.r {
+  float: right;
+}
+.k1 {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.main_bg1 {
+  width: 100%;
+  height: 600px;
+  background:url(../img/unloads/banner_1.png) no-repeat center;
+}
+.login {
+  background: #fff;
+  width: 310px;
+  height: 380px;
+  padding: 60px 35px 60px;
+  margin-top: 6%;
+  margin-right: -10%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);;
+  position: relative;
+    border-radius: 8px;
+}
+.login::before{
+	content:"";
+	width: 20px;
+	height: 20px;
+	top: 164px;
+	left: 44px;
+	position: absolute;
+	display: inline-block;
+}
+.ss::before{
+	content:"";
+	width: 20px;
+	height: 20px;
+	top: 163px;
+	left: 44px;
+	position: absolute;
+	display: inline-block;
+	background: url(../img/images/sprites.png)0px -130px;
+}
+.ss::after{
+	content:"";
+	width: 20px;
+	height: 20px;
+	top: 218px;
+	left: 44px;
+	position: absolute;
+	display: inline-block;
+	background: url(../img/images/sprites.png)0px -155px;
+}
+
+.login .tex {
+  width: 272px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #eeeeee;
+  padding-left: 34px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.login .forgive {
+  font: 12px/40px;
+  color: #333;
+}
+.login .forgive a {
+  color: #333;
+}
+.login .forgive a:hover {
+  color: #e68940;
+}
+.login .forgive .che {
+  vertical-align: middle;
+  margin-top: -2px;
+  margin-right: 4px;
+}
+.login .but {
+  width: 308px;
+  height: 42px;
+  font-size: 16px;
+  color: #fff;
+  background: #e68940;
+  margin-top: 20px;
+}
+.login .hd {
+  height: 72px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.login .hd li {
+  width: 50%;
+  text-indent: 10px;
+}
+.hd .on {
+  color: #e68940;
+  border-bottom: 2px solid #e68940;
+}
+.hd .in {
+  color: #e68940;
+  border-bottom: 2px solid #e68940;
+  float:right;
+  margin-top: -25px;
+  margin-right: -1px;
+}
+.login .p2 {
+  padding-top: 20px;
+}
+.login .p2,
+.login .p2 a {
+  font: 12px/12px;
+  color: #666;
+}
+.login .p2 a {
+  padding-right: 5px;
+}
+.login .p2 a:hover {
+  text-decoration: underline;
+  color: #e68940;
+}
+.weixin{
+	display: block;
+	margin: 0 auto;
+	width: 180px;
+	height: 180px;
+	margin-top: 0px;
+}
+.use-weixin, .di-san-fang{
+	font-size: 12px;
+	text-align: center;
+}
+.order {
+	line-height: 60px;
+	text-align: center;
+}
+ .order .line {
+    display: inline-block;
+    width: 50px;
+    border-top: 1px solid #ccc ;
+}
+.order .di-san-fang {
+    color: #686868;
+    vertical-align: -4px;
+}
+.san-svg{
+	width: 90px;
+	height: 20px;
+	margin: 0 auto;
+	display: block;
+}
+.san{
+	border-radius: 18px;
+	width: 20px;
+	height: 20px;
+	margin-left: 4px;
+}
+.next{
+	width: 110px;
+	height: 12px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 14px;
+}
+.next-dl{
+	font-size: 12px;	
+	display: block;
+	margin-left: 18px;
+	margin-top: -22px;
+}
+.dropbtn {
+	width: 13px;
+	height: 13px;
+    cursor: pointer;
+	margin-top: -46px;
+	margin-left: 100px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.prompt{
+	margin-top: -24px;
+	margin-left: -44px;
+	height: 26px;
+	width: 230px;
+	display: block;
+	vertical-align: bottom;
+}
+.current{
+	color: #e68940;
+}
+.tex:hover{
+	border: 1px solid #2e58ff;
+}

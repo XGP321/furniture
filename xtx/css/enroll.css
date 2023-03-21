@@ -1,0 +1,140 @@
+/* 注册主体 */
+
+html{
+	height: 100%;	
+}
+body{
+	min-height: 100%;
+	display:flex;
+	flex-direction: column;
+}
+ .mainPart{
+    width: 1240px;
+    height: 551px;
+    margin: 90px auto auto;
+	background: url(../img/unloads/banner_1.png) no-repeat;
+	margin-top: 49px;
+}
+.tableArea{
+	float: right;
+    width: 383px;
+    height: 500px;
+    margin-right: 45px;
+    margin-top: 8px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);;
+}
+.tableArea h2{
+	margin-left: 27px;
+	margin-top: 20px;
+	color: #e68940;
+}
+.rightTip{
+	font-size: 12px;
+	margin-top: -420px;
+	margin-left: 24px;
+	color: #9c9999;
+}
+.rightTip a{
+    color: #e68940;
+    text-decoration: none;
+}
+.rightTip a:hover{
+    color: #ff3b31;
+}
+.tableData{
+    width: 335px;
+    height: 400px;
+    margin: auto;
+	margin-top: 24px;
+}
+
+.dataTableLeft{
+    width: 80px;
+   text-align: right;
+}
+.dataTableRight{
+    padding-left: 20px;
+}
+#number:hover{
+	border: 1px solid #2e58ff;
+}
+#username:hover{
+	border: 1px solid #2e58ff;
+}
+#password:hover{
+	border: 1px solid #2e58ff;
+}
+#perName:hover{
+	border: 1px solid #2e58ff;
+}
+#phoneNumber:hover{
+	border: 1px solid #2e58ff;
+}
+#username,#password,#perName,#phoneNumber,#number{
+    border-radius: 5px;
+    height: 35px;
+    width:200px;
+	border: 1px solid #eeeeee;
+}
+#sub{
+    width: 240px;
+    height: 40px;
+	display: block;
+    border-radius: 10px;
+	margin: 20px auto;
+	color: #ffffff;
+	font-family: "宋体";
+	font-size: 18px;
+	margin-top: -10px;
+	border: none;
+	background: #fae1c7;
+}
+.subTd{
+	font-size: 12px;
+}
+.subTd a{
+	color: #2e58ff;
+}
+#accept{
+	display: block;
+	margin-top: -20px;
+	margin-left: 20px;
+}
+.subTd a:hover{
+	text-decoration: underline;	
+}
+#number{
+    width:100px;
+	height: 40px;
+}
+#numberPicture{
+	margin-left: 10px;
+}
+.sex{
+    font-size: 18px;
+}
+input::-webkit-input-placeholder{
+	color: #e0e0e0;
+}
+input:focus::placeholder{
+	opacity: 0;
+}
+#number::placeholder{ 
+	text-align: center;
+}
+.captcha{
+	display: block;
+	margin-top: -24px;
+}
+#canvas{
+	float: right;
+}
+#changeImg{
+	float: right;
+	color: #2E58FF;
+}
+#changeImg:hover{
+	text-decoration: underline;
+}

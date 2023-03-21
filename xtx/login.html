@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+	<head>
+		<meta charset="utf-8">
+		<title>兔子-优质、亲民、快捷！</title>
+		<meta name="description" content="兔子儿，致力于打造宇宙最大的购物平台。" />
+		<meta name="keywords" content="兔子儿官网,食品,生鲜,服装,家电,电商,购物" />
+		<link rel="shortcut icon" href="img/favicon.ico" type="x-icon" />
+		<link rel="stylesheet" type="text/css" href="./css/login.css">
+		<link rel="stylesheet" type="text/css" href="./css/public.css">
+		<link rel="stylesheet" type="text/css" href="./css/common.css">
+	</head>
+	<body style="min-width: 1500px;">
+
+		<div class="cotent">
+
+			<!-- logo设计 -->
+
+			<div class="xtx-nav container">
+				<div class="xtx-logo fl">
+					<h1><a href="index.html">rabbit</a></h1>
+				</div>
+				<div>
+					<a href="opinion.html" class="login-suggestion"><img src="./img/suggestion.png">"登录" 反馈</a>
+				</div>
+			</div>
+
+			<!-- 登录主体 -->
+
+			<div class="main main_bg1 main_bg2">
+				<div class="k1">
+					<div class="login r">
+						<!-- 头部 -->
+						<div class="content-header">
+							<ul class="hd">
+								<li class="on"><a href="javascript:;" class="account">扫码登录</a></li>
+								<li class="in"><a href="javascript:;" class="current">账号登录</a></li>
+							</ul>
+						</div>
+
+
+						<!-- 扫码登录内容 -->
+
+						<ul class="bd">
+							<li style="display: block;">
+								<form>
+									<img src="./img/unloads/扫一扫微信.jpg" class="weixin">
+									<p class="use-weixin">使用扫一扫登录</p>
+									<div class="order">
+										<span class="line"></span>
+										<span class="di-san-fang">第三方账号直接登录</span>
+										<span class="line"></span>
+									</div>
+									<div class="san-svg">
+										<img src="./img/qq.svg" class="san">
+										<img src="./img/wecat.svg" class="san">
+										<img src="./img/weibo.svg" class="san">
+									</div>
+									<div class="next">
+										<input type="checkbox" name="" id="next-k" value="" />
+										<span class="next-dl">下次自动登陆</span>
+										<div class="dropdown">
+											<img src="./img/notice.png" class="dropbtn">
+											<div class="dropdown-content">
+												<img src="./img/prompt.png" class="prompt">
+											</div>
+										</div>
+									</div>
+								</form>
+							</li>
+						</ul>
+
+						<!-- 账号登录内容 -->
+
+						<ul class="bd ss">
+							<li style="display: block;">
+								<form>
+									<input type="text" class="tex" placeholder="手机号码">
+									<input type="password" class="tex tex2" placeholder="密码">
+									<div class="forgive">
+										<label class="l">
+											<input type="checkbox" class="che" value="">
+											自动登录
+										</label>
+										<a href="#" class="a2 r">忘记密码?</a>
+									</div>
+									<input class="but" type="submit" value="登     录">
+								</form>
+								<p class="p2">
+									<a href="enroll.html">免费注册</a>丨
+									<a href="#">意见反馈</a>
+								</p>
+								<div class="order">
+									<span class="line"></span>
+									<span class="di-san-fang">第三方账号直接登录</span>
+									<span class="line"></span>
+								</div>
+								<div class="san-svg">
+									<img src="./img/qq.svg" class="san">
+									<img src="./img/wecat.svg" class="san">
+									<img src="./img/weibo.svg" class="san">
+								</div>
+							</li>
+						</ul>
+						<script>
+							window.onload = function() {
+								let as = document.getElementsByClassName('content-header')[0].getElementsByTagName('a');
+								let contents = document.getElementsByClassName("bd");
+								for (let i = 0; i < as.length; i++) {
+									let a = as[i];
+									a.id = i;
+									a.onclick = function() {
+										for (let j = 0; j < as.length; j++) {
+											as[j].className = "";
+											contents[j].style.display = "none";
+										}
+										this.className = 'current';
+										contents[this.id].style.display = 'block';
+									}
+								}
+							}
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 尾部导航 -->
+
+		<footer>
+			<div class="footer-nav container">
+				<div class="footer1 fl">客户服务
+					<div class="footer4">
+						<a href="#">在线客服</a>
+					</div>
+					<div class="footer5">
+						<a href="#">问题反馈</a>
+					</div>
+				</div>
+				<div class="footer2 fl">关注我们
+					<div class="footer6">
+						<a href="#">公众号</a>
+					</div>
+					<div class="footer7">
+						<a href="#">微博</a>
+					</div>
+				</div>
+				<div class="footer3 fl">下载APP
+					<div class="footer8">
+
+					</div>
+					<div class="footer9">
+						扫描二维码<br>
+						立马下载<br>
+						<a href="#">下载APP</a>
+					</div>
+				</div>
+				<div class="xtx-tell"><a href="#">服务热线</a><br>
+					400-00-0000 <br>
+					周一至周四8：00-18：00
+				</div>
+			</div>
+			<div class="footer-service">
+				<div class="container">
+					<a href="#">价格亲民</a>
+					<a href="#">物流快捷</a>
+					<a href="#">品质新鲜</a>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="footer-copyright-center container">
+					<ul class="footer-copy">
+						<li><a href="#">关于我们</a>|</li>
+						<li><a href="#">帮助中心</a>|</li>
+						<li><a href="#">售后服务</a>|</li>
+						<li><a href="#">配送与验收</a>|</li>
+						<li><a href="#">商务合作</a>|</li>
+						<li><a href="#">搜索推荐</a>|</li>
+						<li><a href="#">友情链接</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="links">
+				<div class="links-center">
+					<ul>
+						<li><a href="http://price.ea3w.com/" target="_blank">万维家电子产品</a></li>
+						<li><a href="http://home.163.com/" target="_blank">网易家居</a></li>
+						<li><a href="https://www.dyrs.com.cn/" target="_blank">室内装修公司</a></li>
+						<li><a href="http://www.to8to.com/" target="_blank">装修网</a></li>
+						<li><a href="http://www.to8to.com/" target="_blank">红木家具</a></li>
+						<li><a href="http://www.jiwu.com/" target="_blank">吉屋网</a></li>
+						<li><a href="http://www.jieju.cn/" target="_blank">卫浴</a></li>
+						<li><a href="https://www.pchouse.com.cn/baike/zhuangshinew/" target="_blank">家居装饰百科</a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
